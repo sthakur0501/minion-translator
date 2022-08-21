@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./src/index.js" defer></script>
+    <title>Minion Speak Transaltor</title>
+  </head>
+  <body>
+    <header class="common-style-for-info">
+      <div class="container container-centered">
+        <h1>
+          Minion Speak Transaltor
+        </h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="container container-centered art-display">
+        <h3 class="input-label-text margin-high-bottom">
+          <label for="input-text">
+            Type your text below to convert to Minions Speak using our Minion
+            Speak translator
+          </label>
+        </h3>
+
+        <textarea
+          type="text"
+          id="input-text"
+          placeholder="Please type in your text here so that our Minion Speak translator can do the magic and convert it to Minions Speak ..."
+          spellcheck="false"
+          rows="8"
+          class="textarea-box margin-med-bottom"
+        ></textarea>
+
+        <button type="submit" class="btn-translate margin-high-bottom">
+          Translate
+        </button>
+
+        <p>Transalation will come here 👇</p>
+
+        <div class="result-text margin-high-bottom">
+          <h3 class="input-label-text margin-med-bottom">
+            In Minions Speak...
+          </h3>
+          <span id="minion-text"></span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="common-style-for-info">
+      <div class="container container-centered">
+        <h3>
+          About
+        </h3>
+
+        <p>
+          Are you a fan of minions? Did you know that the gibberish they say is
+          an actual language. Use the translator to convert your text from
+          English to Minion speak or Banana language.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
